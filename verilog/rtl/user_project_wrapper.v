@@ -58,7 +58,7 @@ module user_project_wrapper #(
     // -----------------------------
     // Instantiate your hard macro
     // -----------------------------
-   Neuromorphic_X1_wb neuro_inst (
+   Neuromorphic_X2_wb neuro_inst (
 `ifdef USE_POWER_PINS
   .VDDC1 (vccd1),
   .VDDC2 (vccd2),
